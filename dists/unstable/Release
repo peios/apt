@@ -1,0 +1,23 @@
+Origin: Peios
+Label: Peios
+Codename: unstable
+Date: Thu, 12 Feb 2026 15:39:03 UTC
+Architectures: amd64
+Components: main
+Description: Peios identity infrastructure packages
+MD5Sum:
+ 8b9eadbf8d7be65b68f0c4a1e97e0aad 838 main/binary-amd64/Packages
+ 8168b420ef9f96a320b1abdd319c601c 588 main/binary-amd64/Packages.gz
+ 5535998ba63a6f50da6cae4d97eded3f 115 main/binary-amd64/Release
+SHA1:
+ 2402bb6e8d79099ee6fe276ab06aab4114bcf63b 838 main/binary-amd64/Packages
+ 0e4f7a3780d2703502fe547c28e4813333246678 588 main/binary-amd64/Packages.gz
+ a9f2c4d5c10298aa5df55cbef54060a3e7e94e14 115 main/binary-amd64/Release
+SHA256:
+ 0908a6833f882f2b0227d7220eeb49eb16686d72159f06bf24bfc94c94a83229 838 main/binary-amd64/Packages
+ c126da26e08860902cff4e154eef0930f7475216644a00b7980f0b05b908792e 588 main/binary-amd64/Packages.gz
+ e44afc073d1daee8f0c0a7f76ae52e80a52c92046b3f38ebec848046a8f5c964 115 main/binary-amd64/Release
+SHA512:
+ ea4f4c9d67e43b2318b176cd36df3f04e0591fc97998d9b1273f4beb895637351bfd281f978dffc7877389931227948d3a321bdc26c71ee2e239b091a5bbde83 838 main/binary-amd64/Packages
+ 068e6a6b7460b98d108d35ba12790b7d5235c36621a7f79b8ca993ee49d586fbb48626da8056c1ac9b937e73d3103257b8d9aa9d23d8928946bab517920f78b6 588 main/binary-amd64/Packages.gz
+ 5051d1a330e7351615c9f77c93ca6f35d9b08c316cf4e4f79c924848a786d12754a327c62cd611699ba347966096f60059fde915157920f0f4094d8e7bdb547e 115 main/binary-amd64/Release
