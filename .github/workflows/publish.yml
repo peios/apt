@@ -37,15 +37,17 @@ jobs:
 
       - name: Import package into APT repo
         run: |
+          rm -rf db/
           DEB=$(ls incoming/peios-core_*_amd64.deb | grep -v dbgsym | head -1)
           echo "Importing: $DEB"
           reprepro -b . includedeb unstable "$DEB"
+          reprepro -b . deleteunreferenced
 
       - name: Commit and push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add dists/ pool/ db/
+          git add -A
           DEB_NAME=$(ls incoming/peios-core_*_amd64.deb | grep -v dbgsym | xargs -I{} basename {} | head -1)
           git commit -m "publish ${DEB_NAME}" || echo "No changes to commit"
           git push
