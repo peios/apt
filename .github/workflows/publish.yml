@@ -1,0 +1,54 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Workflow run ID from peios/peios to download deb artifact from"
+        required: true
+        type: string
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout APT repo
+        uses: actions/checkout@v4
+
+      - name: Download deb artifact from peios CI
+        uses: actions/download-artifact@v4
+        with:
+          name: peios-core-deb
+          repository: peios/peios
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ secrets.PEIOS_ARTIFACTS_TOKEN }}
+          path: incoming/
+
+      - name: Import GPG signing key
+        run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+
+      - name: Install reprepro
+        run: sudo apt-get update && sudo apt-get install -y reprepro
+
+      - name: Import package into APT repo
+        run: |
+          DEB=$(ls incoming/peios-core_*_amd64.deb | grep -v dbgsym | head -1)
+          echo "Importing: $DEB"
+          reprepro -b . includedeb unstable "$DEB"
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add dists/ pool/ db/
+          DEB_NAME=$(ls incoming/peios-core_*_amd64.deb | grep -v dbgsym | xargs -I{} basename {} | head -1)
+          git commit -m "publish ${DEB_NAME}" || echo "No changes to commit"
+          git push
+
+      - name: Clean up
+        run: rm -rf incoming/
