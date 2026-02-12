@@ -1,16 +1,16 @@
 Package: peios-core
-Version: 0.4.0
+Version: 0.5.0~dev+20260212T2350.g9f9e808
 Architecture: amd64
 Maintainer: Jack Palfrey <jackgpalfrey@outlook.com>
-Installed-Size: 11231
+Installed-Size: 13889
 Depends: libc6 (>= 2.38), libpam0g (>= 1.1.0)
 Priority: optional
 Section: admin
-Filename: pool/main/p/peios-core/peios-core_0.4.0_amd64.deb
-Size: 2900176
-SHA256: 7e95455d0ea29e0bd9231f60d347b5501846c143e7d2fe04b4660d1d55c0cd23
-SHA1: 4dde9f71ef5e28879a1afb1536d4db4f1263230f
-MD5sum: 8315292c75085ed79c036a2b7d1319e0
+Filename: pool/main/p/peios-core/peios-core_0.5.0~dev+20260212T2350.g9f9e808_amd64.deb
+Size: 3247224
+SHA256: af02291c0850edd511d47286d4f3c9607e8474ff9a096d38f6d68894ef2bd3b8
+SHA1: 2e19afeb9079cd66c1a07a6f9f6a9ebcdd0a9449
+MD5sum: 03c644723cc19cc5fb9f3042fe5952d8
 Description: Peios identity system
  The Peios identity daemon (principald), NSS and PAM modules, and
  first-boot initialization. Provides user/group database, authentication
