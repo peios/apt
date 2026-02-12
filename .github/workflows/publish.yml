@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout APT repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PEIOS_APT_READ_WRITE_TOKEN }}
 
       - name: Download deb artifact from peios CI
         uses: actions/download-artifact@v4
