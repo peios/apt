@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: Peios
 Label: Peios
 Codename: unstable
-Date: Thu, 12 Feb 2026 23:52:59 UTC
+Date: Fri, 13 Feb 2026 01:50:50 UTC
 Architectures: amd64
 Components: main
 Description: Peios identity infrastructure packages
 MD5Sum:
- a6f6eef6b6cb5ed5356c8a2a9e7e66bf 747 main/binary-amd64/Packages
- 6789471ebcc4d0874794ee16fc653def 519 main/binary-amd64/Packages.gz
+ 3c1da6054e21ae950a78aa2f2c6688bb 693 main/binary-amd64/Packages
+ 235d60bc56b4fa263b60ec6297b2b250 494 main/binary-amd64/Packages.gz
  5535998ba63a6f50da6cae4d97eded3f 115 main/binary-amd64/Release
 SHA1:
- b038cbbce51f3fee5d408ebb80f245983826f60e 747 main/binary-amd64/Packages
- a2fa56a79bb9c485fd0ccc7499184956acda0466 519 main/binary-amd64/Packages.gz
+ 039ae080aa79fb049a99366b487ad0f2ede944c2 693 main/binary-amd64/Packages
+ 95392027eb21199aadf2f79de9bf74d26c196278 494 main/binary-amd64/Packages.gz
  a9f2c4d5c10298aa5df55cbef54060a3e7e94e14 115 main/binary-amd64/Release
 SHA256:
- d94827266ac91130330bd51074e49833dd850026a5e2ef3ca0a9fd055934fd00 747 main/binary-amd64/Packages
- 57bbc60ee3f3eb7ef7a040c6a9bbc8cff715e876033636b7d546d96877d457db 519 main/binary-amd64/Packages.gz
+ 46ffa7f24f3f858240a51855292462a5158596c6745cc7e76a6c437311ce7955 693 main/binary-amd64/Packages
+ 4263e1bfeb3a63119334b3cc1085b7c1282a63ab98f09cb1b81b8738585e6164 494 main/binary-amd64/Packages.gz
  e44afc073d1daee8f0c0a7f76ae52e80a52c92046b3f38ebec848046a8f5c964 115 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEpGs8yDmw0OhSnZpdzfl1bOjID54FAmmOZ9sACgkQzfl1bOjI
-D57EjxAAnFqkeqbW9Ov/D3uWStBDPILyPEQcoAO8J3AwOLb2roh334ETWyUFDECT
-7KAFKiRAEYLmGV1OnpAsV5CHCwUcdhqa2IxVaIA4On0AZYWEiCehzAr3bCYEcoRc
-rJoWf/FDu5LJFxQ4q82KHvuGDzktb8vU/Imstirt38w8gGDF9wKVFMBMz14IEzVX
-NP8bSqEqzQgOchbeVfoBUFgNmbHNSK8F1ATtsRubw1xFKxYOW0apPNNGoxuXtRRM
-OKQEs3W41T6WAOACgzsp9qF+NKOsQOVk0bSN0x+siQYXCLaQS13fLBsWQd6Y2pSk
-LxFZqifQ191oLhbKVSy85twH9EAZ+isEBEIng8Lia1MitfKJpdwKuCvnQPd6yb4M
-8hTUHWdYI92LWyxv3aeJoS4kR0AhsgX6ZJifMsp0qV5dHl+fUA9lBybiitStC4B3
-SXupt16XvNkgIF8mQNc8pdjtuJiqsm5jeW869RxzAgqaEfqN8Z3aakAy15o8ZAGR
-aJ32MBephjGjNjHFhI9l/CmlLs5dyo12lgz069YhiUwnpJhNXuvjP6Ia/sSOK/tD
-9K5f5kHGFaZgv60cHxNvGymeBA2p7UNTN2qb3lhiu77R4dGJ4q52kLSEjYI1akKW
-WbUg2mxNoK66OB/jMTz2fQI6H+5crhxMLxF4WCSEvPzHaRDSsj0=
-=zEdR
+iQIzBAEBCgAdFiEEpGs8yDmw0OhSnZpdzfl1bOjID54FAmmOg3oACgkQzfl1bOjI
+D56Drg//f16SbIsi5F81MDX44d6+N5gTDbXho22axETMVKk+KKnz0rx8YtaN2Kkm
+7uETJbSwlz/JRu0jj+0dujkLQHs6sPwTUw2P7cI6Xo6E8nNNyGk0E0V4z5ElBVDc
+BEjIkYn+bWXbRXYGEX2pjZAIh7ePqnaDyx/tmDUN2XMcPkJ6qf69qkfykxcovcGz
+n2M1ox4UxX4FH2/V8ddTk5bt7Sy6Wj1pY8iqM4bDA+BnZeTuroxIL4B/Oj2pM7/C
+JBQeWcOwZ5buGGOEDwARtjCdWgjdEzfritLBQoV7Oh84u+Q8r7aFAy+GP1YyPtBc
+Oes13ItXRkjATw8vKgpY8bv9C6AY8yoOsXzfRpGe89YJNFgA8Uf6qlBPJRvyU4Mw
+zCbhUCJBe42j3ZpR4bikmyRSEx/WPrNxFR8g0tDJxABhkVWm9LEXZNiz348pml7D
+zzFfgxwfLSnUauxV9iCrtMM/DVOV6c/sS+pPXaaHWfLGb2biDfjiSvMepWibZ1dn
+FFPh7wcSeshQPHwA0XuOc2OhUNF2xfvXclZPfw/iQOLelqyaD7eMTJCaOselvb2x
+v7+URdEzi6ZO7ypMWrjux+7iF8aNw3oWhK2Bd0E5A5H8tMV1hU/4Beaz+epEfPj0
+n5RuZCScTlRyJJ3SehV1j1AQEEoL8s5Usc6RDAlwIrS+F8hdJk0=
+=8Uxh
 -----END PGP SIGNATURE-----
